@@ -62,30 +62,15 @@
 
         <div class="w-full max-w-[420px] bg-white p-8 rounded-2xl shadow-xl border border-sage/10">
 
-            <!-- LOGO MOBILE -->
-            <div class="flex lg:hidden justify-center items-center gap-2 mb-6">
-                <span class="material-symbols-outlined text-terracotta text-3xl">restaurant</span>
-                <span class="text-lg font-bold">Culina</span>
-            </div>
-
             <!-- TITRE -->
             <div class="mb-6 text-center lg:text-left">
                 <h2 class="text-2xl font-extrabold mb-1">Bienvenue</h2>
-                <p class="text-sm text-sage">Créer votre compte</p>
+                <p class="text-sm text-sage">Connectez-vous</p>
             </div>
 
             <!-- FORM -->
-            <form action="inscriptionController" method="POST" class="space-y-5">
+            <form action="loginController" method="POST" class="space-y-5">
             @csrf
-                <!-- NOM -->
-                <div>
-                    <label class="text-sm font-bold mb-1 block">Nom</label>
-                    <div class="relative">
-                        <span class="material-symbols-outlined absolute left-4 top-1/2 -translate-y-1/2 text-sage/60 text-lg">person</span>
-                        <input type="text" name="fullname" placeholder="Votre nom"
-                               class="w-full pl-11 py-3 text-sm rounded-xl border bg-gray-50 focus:ring-2 focus:ring-sage">
-                    </div>
-                </div>
 
                 <!-- EMAIL -->
                 <div>
@@ -113,7 +98,7 @@
                 <!-- BOUTONS -->
                 <div class="space-y-3 pt-2">
                     <button class="w-full h-12 bg-terracotta hover:bg-terracotta-dark text-white font-bold rounded-xl text-sm">
-                        Créer un compte
+                        Se connecter
                     </button>
                 </div>
 
