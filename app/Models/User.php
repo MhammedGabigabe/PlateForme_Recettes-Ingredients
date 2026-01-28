@@ -38,11 +38,19 @@ class User extends Authenticatable
      *
      * @return array<string, string>
      */
-    protected function casts(): array
-    {
-        return [
+    protected $casts = [
             'email_verified_at' => 'datetime',
             'password' => 'hashed',
-        ];
+    ];
+    
+
+    public function role()
+    {
+        return $this->belongsTo(Role::class);
+    }
+
+    public function profil()
+    {
+        return $this->hasOne(Profil::class);
     }
 }
