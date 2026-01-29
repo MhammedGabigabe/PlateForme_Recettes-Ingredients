@@ -16,6 +16,9 @@ Route::get('/login', function () {
 Route::get('/recettes', function () {
     return view('recettes');
 });
+Route::get('/mesrecettes', function () {
+    return view('mesrecettes');
+});
 
 Route::post('/inscriptionController', [InscriptionController::class, 'inscription']);
 Route::post('/loginController', [LoginController::class, 'login']);
