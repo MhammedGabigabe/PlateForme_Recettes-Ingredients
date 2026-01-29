@@ -116,6 +116,14 @@
                         Créer un compte
                     </button>
                 </div>
+                <div class="text-center text-sm pt-4">
+                    <span class="text-gray-600">Déjà inscrit ?</span>
+                    <a href="{{'login'}}"
+                    class="font-bold text-terracotta hover:text-terracotta-dark transition">
+                        Se connecter
+                    </a>
+                </div>
+
 
             </form>
         </div>

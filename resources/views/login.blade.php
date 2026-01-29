@@ -64,7 +64,7 @@
 
             <!-- TITRE -->
             <div class="mb-6 text-center lg:text-left">
-                <h2 class="text-2xl font-extrabold mb-1">Bienvenue</h2>
+                <h2 class="text-2xl font-extrabold mb-1">Bienvenue Chef</h2>
                 <p class="text-sm text-sage">Connectez-vous</p>
             </div>
 
@@ -101,6 +101,14 @@
                         Se connecter
                     </button>
                 </div>
+                <div class="text-center text-sm pt-4">
+                    <span class="text-gray-600">Pas encore de compte ?</span>
+                    <a href="{{'inscription'}}"
+                    class="font-bold text-terracotta hover:text-terracotta-dark transition">
+                        Créer un compte
+                    </a>
+                </div>
+
 
             </form>
         </div>
