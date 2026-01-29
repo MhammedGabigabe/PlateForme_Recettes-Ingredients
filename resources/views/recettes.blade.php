@@ -42,9 +42,9 @@
         </div>
 
         <nav class="hidden md:flex gap-6 text-sm font-semibold">
-            <a href="#" class="hover:text-terracotta">Explorer</a>
-            <a href="#" class="hover:text-terracotta">Mes recettes</a>
-            <a href="#" class="text-terracotta">
+            <a href="recettes" class="hover:text-terracotta">Explorer</a>
+            <a href="mesrecettes" class="hover:text-terracotta">Mes recettes</a>
+            <a href="#" class="hover:text-terracotta">
                 Déconnexion
             </a>
         </nav>
