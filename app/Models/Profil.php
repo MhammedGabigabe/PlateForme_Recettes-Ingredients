@@ -7,10 +7,10 @@ use Illuminate\Database\Eloquent\Model;
 class Profil extends Model
 {
    
-    // protected $fillable = [
-    //     'user_id',
-    //     'photo',
-    // ];
+    protected $fillable = [
+        'user_id',
+        'photo',
+    ];
 
     public function user()
     {

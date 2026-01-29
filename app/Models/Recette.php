@@ -6,6 +6,15 @@ use Illuminate\Database\Eloquent\Model;
 
 class Recette extends Model
 {
+    protected $fillable = [
+        'profil_id', 
+        'categorie_id', 
+        'titre', 
+        'description', 
+        'image', 
+        'duree_preparation', 
+        'difficulte'];
+        
     public function profil()
     {
         return $this->belongsTo(Profil::class);
